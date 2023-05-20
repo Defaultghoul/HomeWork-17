@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Inter:wght@200;300;500&family=Montserrat:wght@700&family=Roboto:wght@100;300&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"); /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -355,4 +355,53 @@ body {
 .menu .menu-list {
   width: 873px;
   height: 681px;
+}
+
+.posle-menu {
+  margin: 0 auto;
+  background: #202023;
+  height: 865px;
+  position: relative;
+}
+.posle-menu > div:nth-last-of-type(1) {
+  bottom: 50px;
+  left: 1300px;
+}
+.posle-menu > div:nth-last-of-type(2) {
+  bottom: 175px;
+  left: 800px;
+}
+.posle-menu > div:nth-last-of-type(3) {
+  bottom: 350px;
+  left: 300px;
+}
+.posle-menu > div {
+  position: absolute;
+  width: 371px;
+  height: 441px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.posle-menu > div div {
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  -webkit-backdrop-filter: blur(18px);
+          backdrop-filter: blur(18px);
+  width: 291px;
+  height: 197px;
+  margin-top: 20px;
+}
+.posle-menu > div div h4 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 13px;
+  color: #FFFFFF;
+}
+.posle-menu > div div h4:nth-last-of-type(4) {
+  padding-top: 26px;
 }
